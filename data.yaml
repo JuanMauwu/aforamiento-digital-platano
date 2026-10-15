@@ -1,0 +1,10 @@
+# Rutas relativas desde donde se ejecuta el script o donde está este archivo data.yaml
+train: dataset/images/train
+val: dataset/images/val
+test: dataset/images/test
+
+# Número de clases 
+nc: 1
+
+# Nombres de las clases
+names: ['macolla']
