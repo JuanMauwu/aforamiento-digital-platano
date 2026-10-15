@@ -1,1 +1,9 @@
-venv/\ndataset/\n*.pt\n*.jpg\n*.png\n.vscode/
+venv/
+.venv/
+dataset/
+runs/
+*.pt
+*.jpg
+*.png
+.vscode/
+__pycache__/
