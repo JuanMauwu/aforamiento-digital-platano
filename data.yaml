@@ -6,7 +6,7 @@ val: dataset/images/val
 test: dataset/images/test
 
 #Número de clases
-nc: 1
+nc: 2
 
 #Nombres de las clases
-names: ['macolla']
+names: ['platano', 'banano']

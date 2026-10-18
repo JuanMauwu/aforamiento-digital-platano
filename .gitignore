@@ -5,5 +5,11 @@ runs/
 *.pt
 *.jpg
 *.png
+*.jpeg
+*.tiff
+*.bmp
+*.tif
+*.tiff
+dataset/labels/*.txt
 .vscode/
 __pycache__/
