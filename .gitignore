@@ -10,6 +10,6 @@ runs/
 *.bmp
 *.tif
 *.tiff
-dataset/labels/*.txt
+dataset/labels/**/*.txt
 .vscode/
 __pycache__/
