@@ -24,7 +24,15 @@ def main():
         ) from e
 
     os.makedirs(args.out, exist_ok=True)
-    results = model.predict(args.image, conf=args.conf, save=True, project=args.out, name="pred")
+    results = model.predict(args.image, 
+        conf=args.conf,
+        imgsz=864,
+        device="cpu",
+        iou=0.30,
+        max_det=600,
+        save=True, 
+        project=args.out, 
+        name="pred")
 
     counts = {}
     for r in results:
