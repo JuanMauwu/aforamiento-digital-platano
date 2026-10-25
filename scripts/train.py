@@ -15,5 +15,5 @@ model.train(
     device="cpu", 
     project=str(ROOT / "runs"),
     name="testing-trainning",
-    fraction=0.30
+    fraction=0.10
 )

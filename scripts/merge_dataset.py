@@ -202,7 +202,7 @@ def main():
 
     if not folders:
         raise SystemExit(
-            f"No hay directorios dentro del directorio: {args.root}. "
+            f"No hay directorios dentro del directorio: {origin_folder}. "
         )
 
     summary = {}
