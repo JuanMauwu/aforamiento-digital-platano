@@ -1,0 +1,12 @@
+path: "/home/andres/Documents/Proyecto integrador/Repositorio"
+
+#Rutas relativas a "path"
+train: dataset-30/images/train
+val: dataset-30/images/val
+test: dataset-30/images/test
+
+#Número de clases
+nc: 2
+
+#Nombres de las clases
+names: ['platano', 'banano']

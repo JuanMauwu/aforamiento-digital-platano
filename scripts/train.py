@@ -8,12 +8,13 @@ model = YOLO("yolov5n.pt")
 
 model.train(
     data=str(ROOT / "data.yaml"),  #ruta absoluta
-    epochs=50,
-    patience=10,
-    imgsz=640,
+    epochs=80,
+    patience=15,
+    imgsz=864,
     batch=8,       
     device="cpu", 
     project=str(ROOT / "runs"),
-    name="testing-trainning",
-    fraction=0.30
+    name="first-run-all",
+    fraction=1.00,
+    max_det=600
 )
